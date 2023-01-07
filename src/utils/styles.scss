@@ -1,0 +1,82 @@
+//colors
+$pink: #f3d6f4;
+$green: #0a5448;
+$grey: whitesmoke;
+
+$transition: 0.6s;
+
+@mixin margin {
+  margin: 0 148px 50px;
+
+  @media screen and (max-width: 1279px) {
+    margin: 0 48px 50px;
+  }
+
+  @media screen and (max-width: 1023px) {
+    margin: 0 24px 50px;
+  }
+
+  @media screen and (max-width: 767px) {
+    margin: 0 16px 20px;
+  }
+}
+
+@mixin padding-top {
+  padding-top: 130px;
+
+  @media screen and (max-width: 1279px) {
+    padding-top: 100px;
+  }
+
+  @media screen and (max-width: 767px) {
+    padding-top: 100px;
+  }
+}
+
+@mixin section-header {
+  font-size: 56px;
+  margin: 0 0 60px;
+
+  @media screen and (max-width: 767px) {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+}
+
+@mixin list {
+  padding: 0;
+  list-style-type: none;
+}
+
+@mixin button {
+  color: $pink;
+  padding: 10px 20px;
+  background-color: $green;
+  box-shadow: 3px 3px $pink;
+  transition: $transition;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+
+  &:hover {
+    background-color: $pink;
+    box-shadow: 3px 3px $green;
+    color: $green;
+  }
+
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+
+@mixin bubble {
+  padding: 12px 16px;
+  border-radius: 25px;
+  font-weight: 500;
+
+  @media screen and (max-width: 767px) {
+    padding: 8px 12px;
+    border-radius: 25px;
+    font-size: 14px;
+  }
+}
