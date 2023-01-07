@@ -24,16 +24,17 @@
                     <br>I'm a front-end developer<br><span class="role about-me__span">and a football fan</span>
                 </h1>
                 <div class="about-me__info">
-                    <img class="about-me__portrait" src="<%=require('./images/me.png')%>" alt="Valeria Tyan">
-                    <p class="about-me__bio"> Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст
-                        Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст
-                        Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст
-                        Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
+                    <img class="about-me__portrait" src="<%=require('./images/me.webp')%>" alt="Valeria Tyan wearing a hat">
+                    <p class="about-me__bio">I <a class="span__link"
+                            href="https://drive.google.com/file/d/1rtNIPg0Cj4mXHIIQ31NVnrUVITllZbmP/view?usp=share_link"
+                            target="_blank">finished</a>
+                        Yandex Practicum Web Development Training Course. Now I'm </p>
                 </div>
                 <ul class="about-me__stack">
                     <li class="about-me__subtitle">WHAT I KNOW</li>
                     <li class="about-me__technology">HTML</li>
                     <li class="about-me__technology">CSS</li>
+                    <li class="about-me__technology">Sass</li>
                     <li class="about-me__technology">JavaScript</li>
                     <li class="about-me__technology">React</li>
                     <li class="about-me__technology">Node.js</li>
@@ -45,7 +46,6 @@
                 <ul class="about-me__stack">
                     <li class="about-me__subtitle">WHAT I'M LEARNING</li>
                     <li class="about-me__technology">Typescript</li>
-                    <li class="about-me__technology">Sass</li>
                 </ul>
                 <img class="about-me__image" src="<%=require('./images/plant.webp')%>"
                     alt="4 green glass bottled with plants">
@@ -62,7 +62,7 @@
                                             href="https://github.com/vlrtyan/movies-explorer-frontend"
                                             target="_blank"><img class="project-link__logo"
                                                 src="<%=require('./images/logos/github-logo.svg')%>"
-                                                alt="Логотип GitHub"></a></li>
+                                                alt="GitHub Logo"></a></li>
                                 </ul>
                             </div>
                             <p class="project__description">A web service dedicated to documentaries about a new
@@ -78,8 +78,8 @@
                                 <li class="project__type">Training Project</li>
                             </ul>
                         </div>
-                        <img class="project__image" src="<%=require('./images/movies-mockup.png')%>"
-                            alt="Мокап ноутбука с сайтом">
+                        <img class="project__image" src="<%=require('./images/movies-mockup.webp')%>"
+                            alt="MacBook and iPhone with the website on the screens">
                     </div>
                     <div class="project project_view_reverse">
                         <div class="project__info">
@@ -89,14 +89,14 @@
                                     <li><a class="project-link" href="https://github.com/vlrtyan/mesto"
                                             target="_blank"><img class="project-link__logo"
                                                 src="<%=require('./images/logos/github-logo.svg')%>"
-                                                alt="Логотип GitHub"></a></li>
+                                                alt="GitHub Logo"></a></li>
                                     <li><a class="project-link" href="https://vlrtyan.github.io/mesto/"
                                             target="_blank"><img class="project-link__logo"
                                                 src="<%=require('./images/logos/website.svg')%>"
-                                                alt="Иконка вебсайта"></a></li>
+                                                alt="Website Icon"></a></li>
                                 </ul>
                             </div>
-                            <p class="project__description">A photo sharing social networking service about beautiful
+                            <p class="project__description">A photo sharing social networking service about
                                 travel destinations in Russia.</p>
                             <ul class="project__stack">
                                 <li class="project__technology">HTML</li>
@@ -109,8 +109,8 @@
                                 <li class="project__type">Training Project</li>
                             </ul>
                         </div>
-                        <img class="project__image" src="<%=require('./images/mesto-mockup.png')%>"
-                            alt="Мокап ноутбука с сайтом">
+                        <img class="project__image" src="<%=require('./images/mesto-mockup.webp')%>"
+                            alt="MacBook and iPhone with the website on the screens">
                     </div>
                     <div class="project">
                         <div class="project__info">
@@ -120,14 +120,14 @@
                                     <li><a class="project-link" href="https://github.com/vlrtyan/russian-travel"
                                             target="_blank"><img class="project-link__logo"
                                                 src="<%=require('./images/logos/github-logo.svg')%>"
-                                                alt="Логотип GitHub"></a></li>
+                                                alt="GitHub Logo"></a></li>
                                     <li><a class="project-link" href="https://vlrtyan.github.io/russian-travel"
                                             target="_blank"><img class="project-link__logo"
                                                 src="<%=require('./images/logos/website.svg')%>"
-                                                alt="Иконка вебсайта"></a></li>
+                                                alt="Website Icon"></a></li>
                                 </ul>
                             </div>
-                            <p class="project__description">A responsive website about travelling in Russia.</p>
+                            <p class="project__description">A responsive web page about travelling in Russia.</p>
                             <ul class="project__stack">
                                 <li class="project__technology">HTML</li>
                                 <li class="project__technology">CSS</li>
@@ -135,8 +135,8 @@
                                 <li class="project__type">Training Project</li>
                             </ul>
                         </div>
-                        <img class="project__image" src="<%=require('./images/russian-travel-moclup.png')%>"
-                            alt="Мокап ноутбука с сайтом">
+                        <img class="project__image" src="<%=require('./images/russian-travel-mockup.webp')%>"
+                            alt="MacBook and iPhone with the website on the screens">
                     </div>
                     <div class="project project_view_reverse">
                         <div class="project__info">
@@ -146,25 +146,26 @@
                                     <li><a class="project-link" href="https://github.com/vlrtyan/how-to-learn"
                                             target="_blank"><img class="project-link__logo"
                                                 src="<%=require('./images/logos/github-logo.svg')%>"
-                                                alt="Логотип GitHub"></a></li>
+                                                alt="GitHub Logo"></a></li>
                                     <li><a class="project-link" href="https://vlrtyan.github.io/how-to-learn"
                                             target="_blank"><img class="project-link__logo"
                                                 src="<%=require('./images/logos/website.svg')%>"
-                                                alt="Иконка вебсайта"></a></li>
+                                                alt="Website Icon"></a></li>
                                 </ul>
                             </div>
-                            <p class="project__description">Learn about modern and effective approaches to learning,
+                            <p class="project__description">A static web page about modern and effective approaches to
+                                learning,
                                 which you can use in your life.</p>
                             <ul class="project__stack">
                                 <li class="project__technology">HTML</li>
                                 <li class="project__technology">CSS</li>
                                 <li class="project__technology">JavaScript</li>
-                                <li class="project__technology">Анимация</li>
+                                <li class="project__technology">Animation</li>
                                 <li class="project__type">Training Project</li>
                             </ul>
                         </div>
-                        <img class="project__image" src="<%=require('./images/how-to-learn-mockup.png')%>"
-                            alt="Мокап ноутбука с сайтом">
+                        <img class="project__image" src="<%=require('./images/how-to-learn-mockup.webp')%>"
+                            alt="MacBook with the website on the screen">
                     </div>
                 </div>
             </section>
@@ -173,18 +174,18 @@
                 <p class="contacts__text">Do you wish to create something together, ask for my CV or just get
                     acquainted?<br>Press the button below :)
                 </p>
-                <a class="contacts__button" href="mailto:vlrtyan@yandex.ru">Send an e-mail</a>
+                <a class="contacts__button" href="mailto:vlrtyan@yandex.ru">Send an email</a>
                 <p class="contacts__text"><span class="contacts__span">You can aso find me here:</span></p>
                 <ul class="contacts__list">
                     <li><a class="social-media" href="https://t.me/vlrtyan" target="_blank"><img
                                 class="social-media__logo" src="<%=require('./images/logos/telegram-logo.svg')%>"
-                                alt="Логотип Telegram">Telegram</a></li>
+                                alt="Telegram Logo">Telegram</a></li>
                     <li><a class="social-media" href="https://www.linkedin.com/in/vlrtyan/" target="_blank"><img
                                 class="social-media__logo" src="<%=require('./images/logos/linkedin-logo.svg')%>"
-                                alt="Логотип LinkedIn">LinkedIn</a></li>
+                                alt="LinkedIn Logo">LinkedIn</a></li>
                     <li><a class="social-media" href="https://github.com/vlrtyan" target="_blank"><img
                                 class="social-media__logo" src="<%=require('./images/logos/github-logo.svg')%>"
-                                alt="Логотип GitHub">GitHub</a></li>
+                                alt="GitHub Logo">GitHub</a></li>
                 </ul>
             </section>
         </main>
@@ -192,9 +193,9 @@
         <footer class="footer">
             <p class="footer__copyright">&copy; Designed and coded with &#9829; by Valeria Tyan | 2023</p>
             <img class="footer__image footer__image_left" src="<%=require('./images/leaves.webp')%>"
-                alt="Высокое зеленое растение">
+                alt="Tall green plant">
             <img class="footer__image footer__image_right" src="<%=require('./images/leaves.webp')%>"
-                alt="Высокое зеленое растение">
+                alt="Tall green plant">
         </footer>
 
     </div>
