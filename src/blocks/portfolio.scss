@@ -64,12 +64,6 @@
   background-color: rgba(1, 1, 1, 0.1);
 }
 
-.project__type {
-  @include bubble;
-  background-color: #0a5448;
-  color: rgb(225, 225, 225);
-}
-
 .project__links {
   list-style-type: none;
   padding: 0;
